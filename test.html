@@ -1,111 +1,111 @@
 <div id='staff_form'>
-	<div class="commonn_field_tpl">
-		<form name="data_form" id="data_form">
-			<fieldset>
-				<legend style="font-weight: bold;" class='lang' id='staff_legend'>Данни за потребителя</legend>
-				<input type="hidden" id="id_user" value=""/>
-				<div id="operation_status"> 
-				</div>
-				<div class="user_form"> 
-					<label for="name" class='lang' id='staff_name'>име:</label> 
-					<input type="text"   name="first_name" id="first_name" class="txt cl_company" value="" tabindex="11"/>
-				</div>
-				<div class="user_form"> 
-					<label for="second_name" class='lang' id='staff_sec_name'>презиме:</label> 
-					<input type="text"  name="sec_name"  id="sec_name" class="txt cl_company" value="" tabindex="11"/>
-				</div>
-				<div class="user_form"> 
-					<label for="family" class='lang' id='staff_family'>фамилия:</label>
-					<input type="text" id="family"  name="family"  class="txt cl_company" value="" tabindex="11"/>
-				</div>
-				<div class="user_form"> 
-					<label for="user_name" class='lang' id='staff_user_name'>потребителско име:</label> 
-					<input type="text" id="user_name"  name="user_name"  class="txt cl_company" value="" tabindex="11"/>
-				</div>
+    <div class="commonn_field_tpl">
+        <form name="data_form" id="data_form">
+            <fieldset>
+                <legend style="font-weight: bold;" class='lang' id='staff_legend'>Данни за потребителя</legend>
+                <input type="hidden" id="id_user" value=""/>
+                <div id="operation_status"> 
+                </div>
+                <div class="user_form"> 
+                    <label for="name" class='lang' id='staff_name'>име:</label> 
+                    <input type="text"   name="first_name" id="first_name" class="txt cl_company" value="" tabindex="11"/>
+                </div>
+                <div class="user_form"> 
+                    <label for="second_name" class='lang' id='staff_sec_name'>презиме:</label> 
+                    <input type="text"  name="sec_name"  id="sec_name" class="txt cl_company" value="" tabindex="11"/>
+                </div>
+                <div class="user_form"> 
+                    <label for="family" class='lang' id='staff_family'>фамилия:</label>
+                    <input type="text" id="family"  name="family"  class="txt cl_company" value="" tabindex="11"/>
+                </div>
+                <div class="user_form"> 
+                    <label for="user_name" class='lang' id='staff_user_name'>потребителско име:</label> 
+                    <input type="text" id="user_name"  name="user_name"  class="txt cl_company" value="" tabindex="11"/>
+                </div>
 
-				<div class="user_form"> 
-					<label for="user_right" class='lang' id='staff_user_right'>права:</label> 
-					<select id="user_right" name="user_right" class="txt cl_company" tabindex="11">
-						<option value="2" class='lang' id='staff_user_right_1'> Служител</option>
-						<option value="1" class='lang' id='staff_user_right_2'> Администратор на системата</option>
-					</select>
-				</div>
-				<div class="user_form" id="user_pass_button_div" >  
-					<button type="button" class="lang" id="user_pass_button" name="user_pass_button" style='display: none'>Смени паролата</button>
-				</div>
-				<div class="user_form" id="user_pass_div" > 
-					<label for="pass" class='lang' id='staff_pass'>парола:</label> 
-					<input type="password" id="user_pass" name="user_pass" class="txt cl_company" value="" tabindex="11"/>
-				</div>
-				<div class = "user_form" >
-					<div class='lang' id="pass_req" style='color: #ff9933; font-size: 12px; letter-spacing: 0.1em; width: 260px; margin-right: 10px; float: right; text-align: justify;'>
-						Паролата трябва да съдържа минимум 6 символа,  включително главни букви, малки букви и цифри!
-					</div>
-				</div>
-				<div class="user_form" id="user_pass_div2"> 
-					<label for="pass2" class='lang' id='staff_pass2'>повтори паролата:</label> 
-					<input type="password" id="user_pass2"  name="user_pass2"  class="txt cl_company" value="" tabindex="11"/>
-				</div>
+                <div class="user_form"> 
+                    <label for="user_right" class='lang' id='staff_user_right'>права:</label> 
+                    <select id="user_right" name="user_right" class="txt cl_company" tabindex="11">
+                        <option value="2" class='lang' id='staff_user_right_1'> Служител</option>
+                        <option value="1" class='lang' id='staff_user_right_2'> Администратор на системата</option>
+                    </select>
+                </div>
+                <div class="user_form" id="user_pass_button_div" >  
+                    <button type="button" class="lang" id="user_pass_button" name="user_pass_button" style='display: none'>Смени паролата</button>
+                </div>
+                <div class="user_form" id="user_pass_div" > 
+                    <label for="pass" class='lang' id='staff_pass'>парола:</label> 
+                    <input type="password" id="user_pass" name="user_pass" class="txt cl_company" value="" tabindex="11"/>
+                </div>
+                <div class = "user_form" >
+                    <div class='lang' id="pass_req" style='color: #ff9933; font-size: 12px; letter-spacing: 0.1em; width: 260px; margin-right: 10px; float: right; text-align: justify;'>
+                        Паролата трябва да съдържа минимум 6 символа,  включително главни букви, малки букви и цифри!
+                    </div>
+                </div>
+                <div class="user_form" id="user_pass_div2"> 
+                    <label for="pass2" class='lang' id='staff_pass2'>повтори паролата:</label> 
+                    <input type="password" id="user_pass2"  name="user_pass2"  class="txt cl_company" value="" tabindex="11"/>
+                </div>
 
-				<div class="user_form" id='save_1'>  <button type="button" class='lang' id="save_staff">Запиши</button> </div>
-				<div class="user_form" id='save_2' style='display: none'>  <button type="button" class='lang' id="save_staff_2">Запиши</button> </div>
-					
-			</fieldset>
-		</form>
-	</div>
-	<div id="operation_status_2"></div>	
-	<div id='user_functions'>
-		
-		<table id='functions'>
-			<thead>
-				<tr>
-					<th style='width: 80px' class='lang' id='staff_allow'>Разреши</th>
-					<th class='lang' id='staff_function'>Функции</th>
-					<th style='width: 130px' class='lang' id='staff_change'>Промени</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><input id="enable_ftp" type='checkbox' disabled></td>
-					<td class='lang' id='ftp'>Файлови операции</td>
-					<td><button class='lang' id="add_ftp" disabled>Редактиране</button></td>
-				</tr>
-				<tr>
-					<td><input id="enable_mail" type='checkbox' disabled></td>
-					<td class='lang' id='mail'>Електронна поща</td>
-					<td><button id="add_mail" class='lang' disabled>Редактиране</button></td>
-				</tr>
-				<tr>
-					<td><input id="enable_web" type='checkbox' disabled></td>
-					<td class='lang' id='web'>WEB достъп</td>
-					<td><button id="add_web" class='lang' disabled>Редактиране</button></td>
-				</tr>
-				<tr>
-					<td><input id="enable_samba" type='checkbox' disabled></td>
-					<td class='lang' id='samba'>САМБА достъп</td>
-					<td><button id="add_samba" class='lang' disabled>Редактиране</button></td>
-				</tr>
-				<tr>
-					<td><input id="enable_vpn" type='checkbox' disabled></td>
-					<td class='lang' id='vpn'>VPN достъп</td>
-					<td><button id="add_vpn" class='lang' disabled>Редактиране</button></td>
-				</tr>
-				<tr>
-					<td><input id="enable_phone" type='checkbox' disabled></td>
-					<td class='lang' id='phone'>Телефонна централа</td>
-					<td><button id="add_phone" class='lang' disabled>Редактиране</button></td>
-				</tr>
-			</tbody>
-		</table>
-		<div class='lang' id="dialog" title="Моля потвърдете" style='display: none;'>
-			<p>Действително ли искате да спрете тази услуга?</p>
-		</div>
-		<div class='lang' id="dialog2" title="Моля потвърдете" style='display: none;'>
-			<p>Действително ли искате да пуснете тази услуга?</p>
-		</div>
-		<div class='lang' id="delete_mail_dialog" title="Моля потвърдете" style='display: none;'>
-			<p>Този потребител има повече от една пощенска кутия!<br>
-				Действително ли желаете да ги спрете всички?</p>
-		</div>
-	</div>
+                <div class="user_form" id='save_1'>  <button type="button" class='lang' id="save_staff">Запиши</button> </div>
+                <div class="user_form" id='save_2' style='display: none'>  <button type="button" class='lang' id="save_staff_2">Запиши</button> </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="operation_status_2"></div>	
+    <div id='user_functions'>
+
+        <table id='functions'>
+            <thead>
+                <tr>
+                    <th style='width: 80px' class='lang' id='staff_allow'>Разреши</th>
+                    <th class='lang' id='staff_function'>Функции</th>
+                    <th style='width: 130px' class='lang' id='staff_change'>Промени</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input id="enable_ftp" type='checkbox' disabled></td>
+                    <td class='lang' id='ftp'>Файлови операции</td>
+                    <td><button class='lang' id="add_ftp" disabled>Редактиране</button></td>
+                </tr>
+                <tr>
+                    <td><input id="enable_mail" type='checkbox' disabled></td>
+                    <td class='lang' id='mail'>Електронна поща</td>
+                    <td><button id="add_mail" class='lang' disabled>Редактиране</button></td>
+                </tr>
+                <tr>
+                    <td><input id="enable_web" type='checkbox' disabled></td>
+                    <td class='lang' id='web'>WEB достъп</td>
+                    <td><button id="add_web" class='lang' disabled>Редактиране</button></td>
+                </tr>
+                <tr>
+                    <td><input id="enable_samba" type='checkbox' disabled></td>
+                    <td class='lang' id='samba'>САМБА достъп</td>
+                    <td><button id="add_samba" class='lang' disabled>Редактиране</button></td>
+                </tr>
+                <tr>
+                    <td><input id="enable_vpn" type='checkbox' disabled></td>
+                    <td class='lang' id='vpn'>VPN достъп</td>
+                    <td><button id="add_vpn" class='lang' disabled>Редактиране</button></td>
+                </tr>
+                <tr>
+                    <td><input id="enable_phone" type='checkbox' disabled></td>
+                    <td class='lang' id='phone'>Телефонна централа</td>
+                    <td><button id="add_phone" class='lang' disabled>Редактиране</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class='lang' id="dialog" title="Моля потвърдете" style='display: none;'>
+            <p>Действително ли искате да спрете тази услуга?</p>
+        </div>
+        <div class='lang' id="dialog2" title="Моля потвърдете" style='display: none;'>
+            <p>Действително ли искате да пуснете тази услуга?</p>
+        </div>
+        <div class='lang' id="delete_mail_dialog" title="Моля потвърдете" style='display: none;'>
+            <p>Този потребител има повече от една пощенска кутия!<br>
+                Действително ли желаете да ги спрете всички?</p>
+        </div>
+    </div>
 </div>
